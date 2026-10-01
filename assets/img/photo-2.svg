@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9ffe9"/><stop offset="1" stop-color="#7ff0b4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="900" fill="url(#g)"/>
+  <circle cx="160" cy="180" r="200" fill="#043333" opacity=".12"/>
+  <circle cx="660" cy="720" r="240" fill="#043333" opacity=".10"/>
+  <g transform="translate(400,450)" fill="#043333" opacity=".55">
+    <path d="M-40 120 C -160 40 -150 -110 0 -170 C 150 -110 160 40 40 120 L0 170 Z"/>
+  </g>
+  <text x="400" y="830" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#043333" opacity=".55" letter-spacing="4">YOUR PHOTO 2</text>
+</svg>

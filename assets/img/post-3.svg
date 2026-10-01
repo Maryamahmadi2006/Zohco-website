@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd9a8"/><stop offset="1" stop-color="#fe9124"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="560" fill="url(#g)"/>
+  <circle cx="650" cy="440" r="180" fill="#fff" opacity=".3"/>
+  <g stroke="#043333" stroke-width="12" fill="none" stroke-linecap="round" opacity=".55">
+    <circle cx="400" cy="270" r="110"/>
+    <path d="M400 160 L400 380 M290 270 L510 270"/>
+  </g>
+  <text x="400" y="510" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#043333" opacity=".6" letter-spacing="4">YOUR IMAGE</text>
+</svg>

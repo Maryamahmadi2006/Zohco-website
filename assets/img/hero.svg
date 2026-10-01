@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3ead8"/>
+      <stop offset=".35" stop-color="#e4efdf"/>
+      <stop offset="1" stop-color="#cfe6cf"/>
+    </linearGradient>
+    <linearGradient id="f1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9fd98a"/><stop offset="1" stop-color="#7cc36f"/>
+    </linearGradient>
+    <linearGradient id="f2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8fcf7d"/><stop offset="1" stop-color="#68b35e"/>
+    </linearGradient>
+    <linearGradient id="f3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5e9c52"/><stop offset="1" stop-color="#427a3b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="800" fill="url(#sky)"/>
+  <ellipse cx="1150" cy="150" rx="320" ry="120" fill="#fff7e6" opacity=".7"/>
+  <!-- distant fields -->
+  <path d="M0 340 C 240 300 460 360 700 335 C 940 310 1160 350 1400 320 L1400 800 L0 800Z" fill="url(#f1)"/>
+  <path d="M0 430 C 300 390 520 460 820 430 C 1060 406 1240 440 1400 415 L1400 800 L0 800Z" fill="url(#f2)"/>
+  <!-- field patchwork -->
+  <g opacity=".35" fill="#3f7a38">
+    <path d="M60 470 l240 -26 30 90 -250 24z"/>
+    <path d="M360 448 l260 -18 22 96 -266 16z"/>
+    <path d="M700 470 l250 -30 34 88 -262 26z"/>
+    <path d="M1040 452 l300 -22 20 96 -308 18z"/>
+  </g>
+  <!-- road -->
+  <path d="M560 800 C 640 640 760 540 940 470 C 1040 432 1120 410 1180 396" stroke="#c9c2b2" stroke-width="34" fill="none"/>
+  <path d="M560 800 C 640 640 760 540 940 470 C 1040 432 1120 410 1180 396" stroke="#f2ede1" stroke-width="3" fill="none" stroke-dasharray="18 22"/>
+  <!-- forest -->
+  <path d="M0 560 C 140 520 300 545 420 600 C 480 630 520 690 540 800 L0 800Z" fill="url(#f3)"/>
+  <!-- turbines -->
+  <g stroke="#f6f8f4" stroke-width="7" stroke-linecap="round">
+    <line x1="300" y1="180" x2="300" y2="450"/>
+    <g transform="translate(300,180)" stroke-width="6">
+      <line x1="0" y1="0" x2="0" y2="-84"/>
+      <line x1="0" y1="0" x2="73" y2="42"/>
+      <line x1="0" y1="0" x2="-73" y2="42"/>
+    </g>
+    <line x1="960" y1="240" x2="960" y2="520"/>
+    <g transform="translate(960,240)" stroke-width="7">
+      <line x1="0" y1="0" x2="0" y2="-110"/>
+      <line x1="0" y1="0" x2="95" y2="55"/>
+      <line x1="0" y1="0" x2="-95" y2="55"/>
+    </g>
+    <line x1="1240" y1="300" x2="1240" y2="530"/>
+    <g transform="translate(1240,300)" stroke-width="5">
+      <line x1="0" y1="0" x2="0" y2="-70"/>
+      <line x1="0" y1="0" x2="61" y2="35"/>
+      <line x1="0" y1="0" x2="-61" y2="35"/>
+    </g>
+    <line x1="640" y1="300" x2="640" y2="430" stroke-width="4"/>
+    <g transform="translate(640,300)" stroke-width="3.5">
+      <line x1="0" y1="0" x2="0" y2="-44"/>
+      <line x1="0" y1="0" x2="38" y2="22"/>
+      <line x1="0" y1="0" x2="-38" y2="22"/>
+    </g>
+  </g>
+  <g fill="#f6f8f4">
+    <circle cx="300" cy="180" r="7"/><circle cx="960" cy="240" r="9"/>
+    <circle cx="1240" cy="300" r="6"/><circle cx="640" cy="300" r="4"/>
+  </g>
+</svg>
